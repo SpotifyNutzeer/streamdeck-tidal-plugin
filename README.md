@@ -13,7 +13,7 @@ A modern Stream Deck plugin to control Tidal with a focus on design and sharing.
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) installed on Windows.
+- [Node.js](https://nodejs.org/) installed via NVM on Windows.
 - Tidal desktop app with [Tidaluna](https://github.com/Inrixia/TidaLuna) (or compatible API) running on port 24123.
 
 ## Installation
