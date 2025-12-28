@@ -6,6 +6,6 @@
   "author": "SpotifyNutzer",
   "license": "MIT",
   "dependencies": {
-    "ws": "^8.0.0"
+    "ws": "^8.18.3"
   }
 }
