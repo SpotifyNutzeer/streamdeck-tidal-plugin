@@ -1,0 +1,11 @@
+{
+  "name": "streamdeck-tidal",
+  "version": "1.6.2",
+  "description": "Modern Stream Deck Controller for Tidal with Ambilight Share Menu",
+  "main": "index.js",
+  "author": "SpotifyNutzer",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}

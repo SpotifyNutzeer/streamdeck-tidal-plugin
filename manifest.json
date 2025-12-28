@@ -1,0 +1,132 @@
+{
+  "Author": "SpotifyNutzer",
+  "CodePathWin": "start.bat",
+  "Description": "Modern Stream Deck Controller for Tidal with Ambilight Share Menu",
+  "Icon": "icon",
+  "Name": "Tidal Controller",
+  "UUID": "wtf.paul.tidal",
+  "Category": "Tidal",
+  "CategoryIcon": "category_icon",
+  "Version": "1.6.2",
+  "SDKVersion": 2,
+  "OS": [
+    {
+        "Platform": "windows",
+        "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "Actions": [
+    {
+      "Icon": "images/action_icon",
+      "Name": "Play Pause",
+      "UUID": "wtf.paul.tidal.playpause",
+      "Tooltip": "Toggle Play/Pause",
+      "States": [
+        {
+          "Image": "images/play",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        },
+        {
+            "Image": "images/pause",
+            "TitleAlignment": "middle",
+            "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Next Track",
+      "UUID": "wtf.paul.tidal.next",
+      "Tooltip": "Next Track",
+      "States": [
+        {
+          "Image": "images/next",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Previous Track",
+      "UUID": "wtf.paul.tidal.prev",
+      "Tooltip": "Previous Track",
+      "States": [
+        {
+          "Image": "images/prev",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Share Song",
+      "UUID": "wtf.paul.tidal.share",
+      "Tooltip": "Copy Spotify/Tidal/YT Link",
+      "States": [
+        {
+          "Image": "images/shuffle",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Toggle Shuffle",
+      "UUID": "wtf.paul.tidal.shuffle",
+      "Tooltip": "Toggle Shuffle",
+      "States": [
+        {
+          "Image": "images/shuffle",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Cycle Repeat",
+      "UUID": "wtf.paul.tidal.repeat",
+      "Tooltip": "Cycle Repeat Mode",
+      "States": [
+        {
+          "Image": "images/repeat",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Volume Up",
+      "UUID": "wtf.paul.tidal.volup",
+      "Tooltip": "Volume +5%",
+      "States": [
+        {
+          "Image": "images/volup",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    },
+    {
+      "Icon": "images/action_icon",
+      "Name": "Volume Down",
+      "UUID": "wtf.paul.tidal.voldown",
+      "Tooltip": "Volume -5%",
+      "States": [
+        {
+          "Image": "images/voldown",
+          "TitleAlignment": "middle",
+          "FontSize": 16
+        }
+      ]
+    }
+  ]
+}
